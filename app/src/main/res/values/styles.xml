@@ -1,0 +1,80 @@
+<resources>
+
+    <!-- BaseView application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_lightest</item>
+        <item name="colorPrimaryDark">@color/primary_lightest</item>
+        <item name="colorAccent">@color/primary_lightest</item>
+    </style>
+    <style name="Theme.MyDialog" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="CustomProgressBar" >
+        <item name="android:startColor">@android:color/holo_orange_dark</item>
+        <item name="android:endColor">@android:color/holo_orange_light</item>
+        <item name="android:maxHeight">10dip</item>
+    </style>
+
+    <style name="LoginTheme">
+        <item name="colorControlNormal">@color/primary_lightest</item>
+    </style>
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextViewDrawableStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="TextViewDrawableStyle.White">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="TextViewDrawableStyle.Dark">
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+    <style name="TextViewLinkStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="TextViewLinkStyle.Dark">
+        <item name="android:textColor">@color/text_light_dark</item>
+    </style>
+
+    <style name="TextViewLinkStyle.Red">
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+
+    <style name="TextViewLinkStyle.Green">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/text_dark</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:textColorHint">@color/text_light_dark</item>
+    </style>
+
+
+</resources>

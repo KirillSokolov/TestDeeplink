@@ -1,0 +1,23 @@
+<actions>
+    <action intentName="android.intent.action.VIEW">
+        <fulfillment urlTemplate="app://ksybtt/1/">
+            <!-- Dropoff location as an address -->
+            <parameter-mapping
+                intentParameter="domen"
+                urlParameter="domen"/>
+
+            <parameter-mapping
+                intentParameter="sub1"
+                urlParameter="sub1"/>
+            <parameter-mapping
+                intentParameter="deviceId"
+                urlParameter="deviceId"/>
+            <parameter-mapping
+                intentParameter="adID"
+                urlParameter="adID"/>
+            <parameter-mapping
+                intentParameter="land"
+                urlParameter="land"/>
+        </fulfillment>
+    </action>
+</actions>
